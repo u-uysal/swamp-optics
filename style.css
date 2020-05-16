@@ -1,3 +1,4 @@
+/* General selector */
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +8,12 @@
   font-family: "Noto Sans SC", sans-serif;
 }
 nav {
-  height: 120px;
+  height: 125px;
   border-bottom: 1px solid gray;
 }
 img {
   width: 150px;
-  height: 100px;
+  height: 117px;
   margin-left: 15%;
 }
 .dropdown:hover > .dropdown-menu {
@@ -53,4 +54,28 @@ img {
   color: rgb(118, 7, 13);
   text-decoration: underline;
   font-weight: bold;
+}
+@media only screen and (max-width: 992px) {
+  .dropdown-menu-center {
+    left: auto;
+    right: 1%;
+    -webkit-transform: translate(-1%, 0);
+    -o-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+  .mega-menu {
+    width: 250px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    z-index: 1001;
+  }
+  .dropdown-menu {
+    width: 250px;
+  }
+  img {
+    width: 100px;
+    height: 78px;
+    margin-bottom: 20px;
+  }
 }

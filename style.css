@@ -37,6 +37,7 @@ img {
   position: relative;
   z-index: 1001;
 }
+/* align dropdown items */
 .dropdown-menu-center {
   right: auto;
   left: 40%;

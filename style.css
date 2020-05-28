@@ -64,12 +64,13 @@ nav {
 .banner {
   position: relative;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 2vw;
   color: white;
   font-weight: bold;
 }
 .centered {
   position: absolute;
+  line-height: 5vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -105,5 +106,8 @@ nav {
     width: 100px;
     height: 78px;
     margin-bottom: 20px;
+  }
+  .banner img {
+    height: 60vw;
   }
 }

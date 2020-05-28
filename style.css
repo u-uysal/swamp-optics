@@ -13,7 +13,7 @@ nav {
   border-bottom: 1px solid gray;
 }
 /* style logo */
-img {
+.navbar-brand img {
   width: 150px;
   height: 117px;
   margin-left: 15%;
@@ -60,6 +60,28 @@ img {
   text-decoration: underline;
   font-weight: bold;
 }
+/* Container holding the image and the text */
+.banner {
+  position: relative;
+  text-align: center;
+  font-size: 1.4em;
+  color: white;
+  font-weight: bold;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered a {
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 30%;
+}
+.centered a:hover {
+  color: white;
+}
 /* add breakpoints make responsive */
 @media only screen and (max-width: 992px) {
   .dropdown-menu-center {
@@ -79,7 +101,7 @@ img {
   .dropdown-menu {
     width: 250px;
   }
-  img {
+  .navbar-brand img {
     width: 100px;
     height: 78px;
     margin-bottom: 20px;
